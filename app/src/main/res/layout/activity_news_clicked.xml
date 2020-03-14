@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    tools:context="NewsClickedActivity">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_alignParentStart="true"
+            android:elevation="10dp">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_margin="8dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/news_image_clicked"
+                        android:src="@drawable/facebook"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"/>
+                    <TextView
+                        android:id="@+id/news_headline_clicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="This is headline for this activity"
+                        android:layout_marginTop="15dp"
+                        android:textSize="30sp"
+                        android:textColor="#000"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <TextView
+                            android:id="@+id/news_date_clicked"
+                            android:text="14 February, 220"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/news_source_clicked"
+                            android:text="The Daily Star"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:gravity="end"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/news_writer_name_clicked"
+                        android:layout_marginTop="4dp"
+                        android:text="Zubaer Alam Bihim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#4F000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+
+                    <TextView
+                        android:id="@+id/news_description_clicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:text="This is description for this activity"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:layout_marginBottom="8dp"/>
+                </LinearLayout>
+
+            </ScrollView>
+
+        </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1085811209303",
+    "firebase_url": "https://firestore-test-874da.firebaseio.com",
+    "project_id": "firestore-test-874da",
+    "storage_bucket": "firestore-test-874da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085811209303:android:8007eff45101c8619d9f12",
+        "android_client_info": {
+          "package_name": "com.bihim.firestoretest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085811209303-qbtka3ct40cvtol55l8mittk8npoke3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHaEZsDy3IvtQJRXzdTkEgJt68Jy8qlHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085811209303-qbtka3ct40cvtol55l8mittk8npoke3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
